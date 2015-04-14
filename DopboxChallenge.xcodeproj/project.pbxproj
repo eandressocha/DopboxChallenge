@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5711447E1ADCA6900023BCBC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5711447D1ADCA6900023BCBC /* main.m */; };
+		571144811ADCA6900023BCBC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 571144801ADCA6900023BCBC /* AppDelegate.m */; };
+		571144841ADCA6900023BCBC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 571144831ADCA6900023BCBC /* ViewController.m */; };
+		571144871ADCA6900023BCBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 571144851ADCA6900023BCBC /* Main.storyboard */; };
+		571144891ADCA6900023BCBC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 571144881ADCA6900023BCBC /* Images.xcassets */; };
+		5711448C1ADCA6900023BCBC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5711448A1ADCA6900023BCBC /* LaunchScreen.xib */; };
+		571144981ADCA6900023BCBC /* DopboxChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 571144971ADCA6900023BCBC /* DopboxChallengeTests.m */; };
+		571144A91ADCA6E80023BCBC /* NotesFolderListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 571144A21ADCA6E80023BCBC /* NotesFolderListController.m */; };
+		571144AA1ADCA6E80023BCBC /* NoteController.m in Sources */ = {isa = PBXBuildFile; fileRef = 571144A41ADCA6E80023BCBC /* NoteController.m */; };
+		571144AB1ADCA6E80023BCBC /* SettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 571144A61ADCA6E80023BCBC /* SettingsController.m */; };
+		571144AC1ADCA6E80023BCBC /* NotesSettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 571144A81ADCA6E80023BCBC /* NotesSettingsController.m */; };
+		571144AE1ADCA7860023BCBC /* Dropbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 571144AD1ADCA7860023BCBC /* Dropbox.framework */; };
+		571144B01ADCA7A60023BCBC /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 571144AF1ADCA7A60023BCBC /* CFNetwork.framework */; };
+		571144B21ADCA7AC0023BCBC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 571144B11ADCA7AC0023BCBC /* Security.framework */; };
+		571144B41ADCA7B60023BCBC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 571144B31ADCA7B60023BCBC /* SystemConfiguration.framework */; };
+		571144B61ADCA7BD0023BCBC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 571144B51ADCA7BD0023BCBC /* QuartzCore.framework */; };
+		571144B81ADCA7CA0023BCBC /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 571144B71ADCA7CA0023BCBC /* libc++.dylib */; };
+		571144BA1ADCA7DB0023BCBC /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 571144B91ADCA7DB0023BCBC /* libz.dylib */; };
+		57D401911ADCC3C800779036 /* AddPhotoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D401901ADCC3C800779036 /* AddPhotoVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		571144921ADCA6900023BCBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 571144701ADCA6900023BCBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 571144771ADCA6900023BCBC;
+			remoteInfo = DopboxChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		571144781ADCA6900023BCBC /* DopboxChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DopboxChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5711447C1ADCA6900023BCBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5711447D1ADCA6900023BCBC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5711447F1ADCA6900023BCBC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		571144801ADCA6900023BCBC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		571144821ADCA6900023BCBC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		571144831ADCA6900023BCBC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		571144861ADCA6900023BCBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		571144881ADCA6900023BCBC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5711448B1ADCA6900023BCBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		571144911ADCA6900023BCBC /* DopboxChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DopboxChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		571144961ADCA6900023BCBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		571144971ADCA6900023BCBC /* DopboxChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DopboxChallengeTests.m; sourceTree = "<group>"; };
+		571144A11ADCA6E80023BCBC /* NotesFolderListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotesFolderListController.h; sourceTree = "<group>"; };
+		571144A21ADCA6E80023BCBC /* NotesFolderListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotesFolderListController.m; sourceTree = "<group>"; };
+		571144A31ADCA6E80023BCBC /* NoteController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteController.h; sourceTree = "<group>"; };
+		571144A41ADCA6E80023BCBC /* NoteController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteController.m; sourceTree = "<group>"; };
+		571144A51ADCA6E80023BCBC /* SettingsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsController.h; sourceTree = "<group>"; };
+		571144A61ADCA6E80023BCBC /* SettingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsController.m; sourceTree = "<group>"; };
+		571144A71ADCA6E80023BCBC /* NotesSettingsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotesSettingsController.h; sourceTree = "<group>"; };
+		571144A81ADCA6E80023BCBC /* NotesSettingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotesSettingsController.m; sourceTree = "<group>"; };
+		571144AD1ADCA7860023BCBC /* Dropbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Dropbox.framework; sourceTree = "<group>"; };
+		571144AF1ADCA7A60023BCBC /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		571144B11ADCA7AC0023BCBC /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		571144B31ADCA7B60023BCBC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		571144B51ADCA7BD0023BCBC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		571144B71ADCA7CA0023BCBC /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		571144B91ADCA7DB0023BCBC /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		571144BB1ADCA8180023BCBC /* AccountController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountController.h; sourceTree = "<group>"; };
+		57D4018F1ADCC3C800779036 /* AddPhotoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddPhotoVC.h; sourceTree = "<group>"; };
+		57D401901ADCC3C800779036 /* AddPhotoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddPhotoVC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		571144751ADCA6900023BCBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				571144BA1ADCA7DB0023BCBC /* libz.dylib in Frameworks */,
+				571144B81ADCA7CA0023BCBC /* libc++.dylib in Frameworks */,
+				571144B61ADCA7BD0023BCBC /* QuartzCore.framework in Frameworks */,
+				571144B41ADCA7B60023BCBC /* SystemConfiguration.framework in Frameworks */,
+				571144B21ADCA7AC0023BCBC /* Security.framework in Frameworks */,
+				571144B01ADCA7A60023BCBC /* CFNetwork.framework in Frameworks */,
+				571144AE1ADCA7860023BCBC /* Dropbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5711448E1ADCA6900023BCBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5711446F1ADCA6900023BCBC = {
+			isa = PBXGroup;
+			children = (
+				571144B91ADCA7DB0023BCBC /* libz.dylib */,
+				571144B71ADCA7CA0023BCBC /* libc++.dylib */,
+				571144B51ADCA7BD0023BCBC /* QuartzCore.framework */,
+				571144B31ADCA7B60023BCBC /* SystemConfiguration.framework */,
+				571144B11ADCA7AC0023BCBC /* Security.framework */,
+				571144AF1ADCA7A60023BCBC /* CFNetwork.framework */,
+				5711447A1ADCA6900023BCBC /* DopboxChallenge */,
+				571144941ADCA6900023BCBC /* DopboxChallengeTests */,
+				571144791ADCA6900023BCBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		571144791ADCA6900023BCBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				571144781ADCA6900023BCBC /* DopboxChallenge.app */,
+				571144911ADCA6900023BCBC /* DopboxChallengeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5711447A1ADCA6900023BCBC /* DopboxChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				571144BB1ADCA8180023BCBC /* AccountController.h */,
+				5711447F1ADCA6900023BCBC /* AppDelegate.h */,
+				571144801ADCA6900023BCBC /* AppDelegate.m */,
+				571144A11ADCA6E80023BCBC /* NotesFolderListController.h */,
+				571144A21ADCA6E80023BCBC /* NotesFolderListController.m */,
+				57D4018F1ADCC3C800779036 /* AddPhotoVC.h */,
+				57D401901ADCC3C800779036 /* AddPhotoVC.m */,
+				571144A31ADCA6E80023BCBC /* NoteController.h */,
+				571144A41ADCA6E80023BCBC /* NoteController.m */,
+				571144A51ADCA6E80023BCBC /* SettingsController.h */,
+				571144A61ADCA6E80023BCBC /* SettingsController.m */,
+				571144A71ADCA6E80023BCBC /* NotesSettingsController.h */,
+				571144A81ADCA6E80023BCBC /* NotesSettingsController.m */,
+				571144821ADCA6900023BCBC /* ViewController.h */,
+				571144831ADCA6900023BCBC /* ViewController.m */,
+				571144851ADCA6900023BCBC /* Main.storyboard */,
+				571144881ADCA6900023BCBC /* Images.xcassets */,
+				5711448A1ADCA6900023BCBC /* LaunchScreen.xib */,
+				5711447B1ADCA6900023BCBC /* Supporting Files */,
+			);
+			path = DopboxChallenge;
+			sourceTree = "<group>";
+		};
+		5711447B1ADCA6900023BCBC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				571144AD1ADCA7860023BCBC /* Dropbox.framework */,
+				5711447C1ADCA6900023BCBC /* Info.plist */,
+				5711447D1ADCA6900023BCBC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		571144941ADCA6900023BCBC /* DopboxChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				571144971ADCA6900023BCBC /* DopboxChallengeTests.m */,
+				571144951ADCA6900023BCBC /* Supporting Files */,
+			);
+			path = DopboxChallengeTests;
+			sourceTree = "<group>";
+		};
+		571144951ADCA6900023BCBC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				571144961ADCA6900023BCBC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		571144771ADCA6900023BCBC /* DopboxChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5711449B1ADCA6900023BCBC /* Build configuration list for PBXNativeTarget "DopboxChallenge" */;
+			buildPhases = (
+				571144741ADCA6900023BCBC /* Sources */,
+				571144751ADCA6900023BCBC /* Frameworks */,
+				571144761ADCA6900023BCBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DopboxChallenge;
+			productName = DopboxChallenge;
+			productReference = 571144781ADCA6900023BCBC /* DopboxChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		571144901ADCA6900023BCBC /* DopboxChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5711449E1ADCA6900023BCBC /* Build configuration list for PBXNativeTarget "DopboxChallengeTests" */;
+			buildPhases = (
+				5711448D1ADCA6900023BCBC /* Sources */,
+				5711448E1ADCA6900023BCBC /* Frameworks */,
+				5711448F1ADCA6900023BCBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				571144931ADCA6900023BCBC /* PBXTargetDependency */,
+			);
+			name = DopboxChallengeTests;
+			productName = DopboxChallengeTests;
+			productReference = 571144911ADCA6900023BCBC /* DopboxChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		571144701ADCA6900023BCBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = AndreSocha;
+				TargetAttributes = {
+					571144771ADCA6900023BCBC = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					571144901ADCA6900023BCBC = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 571144771ADCA6900023BCBC;
+					};
+				};
+			};
+			buildConfigurationList = 571144731ADCA6900023BCBC /* Build configuration list for PBXProject "DopboxChallenge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5711446F1ADCA6900023BCBC;
+			productRefGroup = 571144791ADCA6900023BCBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				571144771ADCA6900023BCBC /* DopboxChallenge */,
+				571144901ADCA6900023BCBC /* DopboxChallengeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		571144761ADCA6900023BCBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				571144871ADCA6900023BCBC /* Main.storyboard in Resources */,
+				5711448C1ADCA6900023BCBC /* LaunchScreen.xib in Resources */,
+				571144891ADCA6900023BCBC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5711448F1ADCA6900023BCBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		571144741ADCA6900023BCBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				571144AB1ADCA6E80023BCBC /* SettingsController.m in Sources */,
+				571144841ADCA6900023BCBC /* ViewController.m in Sources */,
+				571144811ADCA6900023BCBC /* AppDelegate.m in Sources */,
+				57D401911ADCC3C800779036 /* AddPhotoVC.m in Sources */,
+				5711447E1ADCA6900023BCBC /* main.m in Sources */,
+				571144AC1ADCA6E80023BCBC /* NotesSettingsController.m in Sources */,
+				571144AA1ADCA6E80023BCBC /* NoteController.m in Sources */,
+				571144A91ADCA6E80023BCBC /* NotesFolderListController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5711448D1ADCA6900023BCBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				571144981ADCA6900023BCBC /* DopboxChallengeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		571144931ADCA6900023BCBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 571144771ADCA6900023BCBC /* DopboxChallenge */;
+			targetProxy = 571144921ADCA6900023BCBC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		571144851ADCA6900023BCBC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				571144861ADCA6900023BCBC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5711448A1ADCA6900023BCBC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5711448B1ADCA6900023BCBC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		571144991ADCA6900023BCBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5711449A1ADCA6900023BCBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5711449C1ADCA6900023BCBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ernesto Socha (33E4VMJM7X)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DopboxChallenge",
+				);
+				INFOPLIST_FILE = DopboxChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5711449D1ADCA6900023BCBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ernesto Socha (33E4VMJM7X)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DopboxChallenge",
+				);
+				INFOPLIST_FILE = DopboxChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5711449F1ADCA6900023BCBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DopboxChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DopboxChallenge.app/DopboxChallenge";
+			};
+			name = Debug;
+		};
+		571144A01ADCA6900023BCBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DopboxChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DopboxChallenge.app/DopboxChallenge";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		571144731ADCA6900023BCBC /* Build configuration list for PBXProject "DopboxChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				571144991ADCA6900023BCBC /* Debug */,
+				5711449A1ADCA6900023BCBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5711449B1ADCA6900023BCBC /* Build configuration list for PBXNativeTarget "DopboxChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5711449C1ADCA6900023BCBC /* Debug */,
+				5711449D1ADCA6900023BCBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5711449E1ADCA6900023BCBC /* Build configuration list for PBXNativeTarget "DopboxChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5711449F1ADCA6900023BCBC /* Debug */,
+				571144A01ADCA6900023BCBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 571144701ADCA6900023BCBC /* Project object */;
+}
